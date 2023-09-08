@@ -1,6 +1,4 @@
 # 2048 Game
-
- ## About The Project
  2048 game made using JavaScript.
 
  ## Built With
