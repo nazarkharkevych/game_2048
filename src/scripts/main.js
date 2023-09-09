@@ -14,7 +14,7 @@ const DIRECTION = {
   RIGHT: 'right',
 };
 
-const KEYTYPES = {
+const KEY_TYPES = {
   ARROW_LEFT: 'ArrowLeft',
   ARROW_RIGHT: 'ArrowRight',
   ARROW_UP: 'ArrowUp',
@@ -87,19 +87,19 @@ function handleNewMove(keyType) {
   const maxIndex = 4;
 
   switch (keyType) {
-    case KEYTYPES.ARROW_LEFT:
+    case KEY_TYPES.ARROW_LEFT:
       handleMove(minIndex, maxIndex, DIRECTION.LEFT);
       break;
 
-    case KEYTYPES.ARROW_RIGHT:
+    case KEY_TYPES.ARROW_RIGHT:
       handleMove(minIndex, maxIndex, DIRECTION.RIGHT);
       break;
 
-    case KEYTYPES.ARROW_UP:
+    case KEY_TYPES.ARROW_UP:
       handleMove(minIndex, maxIndex, DIRECTION.UP);
       break;
 
-    case KEYTYPES.ARROW_DOWN:
+    case KEY_TYPES.ARROW_DOWN:
       handleMove(minIndex, maxIndex, DIRECTION.DOWN);
       break;
 
